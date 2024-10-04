@@ -1,0 +1,52 @@
+{
+  // =================== Visuals ================= //
+  "editor.cursorSmoothCaretAnimation": "off",
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "boundary",
+  "editor.lineNumbers": "on",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 15,
+  "window.autoDetectColorScheme": false,
+  "workbench.editor.tabActionLocation": "right",
+  "workbench.list.smoothScrolling": true,
+  "workbench.sideBar.location": "left",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 15,
+  "workbench.tree.expandMode": "singleClick",
+  // =================== Formatting ================== //
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "prettier.enable": true,
+  "prettier.printWidth": 120,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  // =================== Extensions ================== //
+
+  "tailwindCSS.includeLanguages": {
+    "html": "sda",
+    "javascript": "javascript",
+    "css": "css"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.bracketPairColorization.enabled": true
+}
